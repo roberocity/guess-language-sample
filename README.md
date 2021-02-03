@@ -14,18 +14,18 @@ This is a quick set of sample applications to allow a user to guess a random num
 
 This simple application will be implement in various programming languages in an effort to see the similarities and the differences between the languages. 
 
-- [C#](#cs) - this is the language that I use the most
+- [C#](#c-net) - this is the language that I use the most
 - [C](#c) - a low-level language with similar syntax to C Sharp
-- [F#](#fs) - a functional language for .NET. 
-- [Python](#py) - a scripting language 
-- [Javascript](#js) - a web focused language that runs in web-browsers and on the server. This will be a node.js console application.
+- [F#](#f-net) - a functional language for .NET. 
+- [Python](#python) - a scripting language 
+- [Javascript](#javascript) - a web focused language that runs in web-browsers and on the server. This will be a node.js console application.
 - [Go](#go) - a low-level, newish language that I want to know better
-- [Rust](#rs) - a language that, as of now, I know very little about
-- [Haskell](#hs) - an old functional language that I would like to explore
+- [Rust](#rust) - a language that, as of now, I know very little about
+- [Haskell](#haskell) - an old functional language that I would like to explore
 
 In each of the languages I have tried to use the conventions and practices of that language as well as follow good software design patterns. I'm not an expert in any of these languages. My hope is that by implementing this same, trivial application in each language I'll learn the idioms and syntax of that language.
 
-### C#
+### C# (.NET)
 
 I use C# on a daily basis in my work life. I've used it since it was released in 2001 so I've faily used to writing code there. It is my go to language when I want to just get something done. However, that is slowly changing and I branch out into other languages. 
 
@@ -73,7 +73,7 @@ While I don't think there's a lot of boiler plate code, using Cargo was a bit of
 
 Rust shows a warning when compiling code that has defined a varialbe, but not used that variable. This is a step back from Go, but still a good practice in my opinion.
 
-### F# 
+### F# (.NET)
 
 I like the what I think I understand about the functional paradigm a lot. I'm sure that my implementation here isn't the best. This, like Rust, was my first real venture into F#. I've toyed around with it, read, and talked about it, but never used it to actually make anything of consequence. In fact I think this was the first time I wrote F# code not in F# Interactive mode. 
 
