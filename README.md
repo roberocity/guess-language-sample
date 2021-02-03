@@ -25,7 +25,7 @@ This simple application will be implement in various programming languages in an
 
 In each of the languages I have tried to use the conventions and practices of that language as well as follow good software design patterns. I'm not an expert in any of these languages. My hope is that by implementing this same, trivial application in each language I'll learn the idioms and syntax of that language.
 
-### C# {:#cs}
+### C#
 
 I use C# on a daily basis in my work life. I've used it since it was released in 2001 so I've faily used to writing code there. It is my go to language when I want to just get something done. However, that is slowly changing and I branch out into other languages. 
 
@@ -33,7 +33,7 @@ C# tends to have a lot of boiler-plate code just to get things setup and going. 
 
 The C# version was the first version that I implemented. Writing the application didn't take but a few minutes and I had something running. I don't think there's anything there to optimize. I think the code is fairly readable and makes sense for a typical C# developer. 
 
-### Python {:#py}
+### Python
 
 I'm no Python expert, but I didn't struggle to write this application. Python is about as straight forward as a language can be when it comes to simple script-like code like this. I've only used Python for simple scripts. While I have used Python classes previously, I didn't see the benefit here. I'm also not sure I could do Python classes without having to pull up documentation. For this simple script I was able to do everything with existing knowledge.
 
@@ -41,7 +41,7 @@ I was able to bang out the code for this very quickly. Ran through a few scenari
 
 I enjoy Python and for scripts like this, it works really well. 
 
-### Go {:#go}
+### Go
 
 I've used Go only a little, but I've enjoyed it every time I've used it. I know there are some patterns, etc. that can be used to simplify the error checking, but I just chose to keep that all inline here. 
 
@@ -49,13 +49,13 @@ I really like the pattern of a function returning a `value(s), error` and checki
 
 One of my favorite features of Go is that it is opinionated on code style and variable usage. If you define a variable and don't use it Go won't even compile the code. 
 
-### JavaScript {:#js}
+### JavaScript
 
 I use JavaScript in the browser very often. I write a lot of vanilla js as well as use Vue and React. Until this project I had never written any js that was meant to run only on the console. I do like the js event loop, but it bit me in this experiment. I used the `readline` library (because that was the first one I found in a Google search for reading input). In my original loop, the console kept asking for input, but never accepting it. This was because my loop was a simple for loop that ignored the event loop. 
 
 I didn't really enjoy JavaScript for this type of work. The console doesn't seem to need the event loop, but I'm sure I'm missing something and it could be useful. 
 
-### C {:#c}
+### C
 
 I took one programming class at university. That was back in the late 90s. That class was a C class. It is probably the only class where I aced every assignment and exam. Why I didn't take that as a sign of what to do as a career I'm not sure, but I really do love the path I've taken so everything's good. 
 
@@ -63,7 +63,7 @@ C# and C share so much syntax that this wasn't too challenging for me. It came d
 
 The biggest gotcha was around the `scanf` call to capture the input from the user. If a bad value was passed in (e.g. `hello` instead of a valid number) the console was get stuck in a loop. It wasn't automatically clearing the input so the `scanf` continued to read the existing input. I snagged the `while` loop from a Google search. I understand what it is doing, but find it frustrating that I have to do it. 
 
-### Rust {:#rs}
+### Rust
 
 This was my very first venture into the Rust language. Overall, I liked the experience a lot. The language has some nice features, but none of it was intuative. I had to read up a bit on the syntax and structure of the code. And it did help that the documentation had almost this exact application as an example program. 
 
@@ -73,7 +73,7 @@ While I don't think there's a lot of boiler plate code, using Cargo was a bit of
 
 Rust shows a warning when compiling code that has defined a varialbe, but not used that variable. This is a step back from Go, but still a good practice in my opinion.
 
-### F# {:#fs}
+### F# 
 
 I like the what I think I understand about the functional paradigm a lot. I'm sure that my implementation here isn't the best. This, like Rust, was my first real venture into F#. I've toyed around with it, read, and talked about it, but never used it to actually make anything of consequence. In fact I think this was the first time I wrote F# code not in F# Interactive mode. 
 
@@ -81,7 +81,7 @@ I like recursion, but it feels a bit of a forced-fit implemented this way. There
 
 F# has a bit too much boiler plate as well because of the .NET framework. While I did create a full `.fsproj` using the `dotnet new ...` command I _think_ it would be possible to write and compile this using just one `.fs` file.
 
-### Haskell {:#hs}
+### Haskell
 
 Ok. So I've read about Haskell, watched some masters write Haskel code, and even have some (yet unread) books about Haskell, but this was the first time I ever tried to write anything in Haskell that was just a simple `sum` or `count` a `list` function. 
 
@@ -95,6 +95,5 @@ I don't love how I kept track of the number of guesses made in either this or th
 
 I like the fact that I can use `_` to tell Haskell that I may require something, but I don't care about it. This feature is in F# too and is moving into C# as well. 
 
-snippet: hs-if-else
 
 
