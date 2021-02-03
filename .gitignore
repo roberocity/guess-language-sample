@@ -1,0 +1,9 @@
+debug/
+target/
+bin/
+obj/
+
+*.o
+*.hi
+
+Cargo.lock
